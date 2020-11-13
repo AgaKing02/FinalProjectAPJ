@@ -26,10 +26,10 @@
         <a class="nav-link" href="#">Explore</a>
         <a class="nav-link" href="#">Suggestions</a>
         <c:if test="${cookie.role.value=='ADMIN'}">
-            <a class="nav-link" href="<%=request.getContextPath()+"/news"%>">News</a>
-            <a class="nav-link" href="<%=request.getContextPath()+"/groups"%>">Groups</a>
-            <a class="nav-link" href="<%=request.getContextPath()+"/clubs"%>">Clubs</a>
-            <a class="nav-link" href="<%=request.getContextPath()+"/events"%>">Events</a>
+            <a class="nav-link" href="<%=request.getContextPath()+"/news.jsp"%>">News</a>
+            <a class="nav-link" href="<%=request.getContextPath()+"/groups.jsp"%>">Groups</a>
+            <a class="nav-link" href="<%=request.getContextPath()+"/clubs.jsp"%>">Clubs</a>
+            <a class="nav-link" href="<%=request.getContextPath()+"/events.jsp"%>">Events</a>
         </c:if>
         <a class="nav-link" href="#">Channel</a>
 
