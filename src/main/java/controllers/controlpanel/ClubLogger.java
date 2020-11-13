@@ -19,6 +19,7 @@ public class ClubLogger extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         authorityProvider.isAdministrator(request, response);
+        System.out.println("acascsac");
 
     }
 

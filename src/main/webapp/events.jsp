@@ -8,9 +8,21 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Events</title>
 </head>
 <body>
-
+<form method="post" action="<%=request.getContextPath()%>/Events">
+    Event ID:
+    <input type="text" name="eventId" id="eventId" placeholder="Event ID...">
+    <br>
+    Event title:
+    <input type="text" name="eventName" id="eventName" placeholder="Event name...">
+    <br>
+    Description
+    <input type="text" name="eventDescription" id="eventDescription" placeholder="Description...">
+    <br>
+    <input type="submit" value="Add">
+</form>
+<a href="<%=request.getContextPath()%>/ShowEvents">Show all events</a></center>
 </body>
 </html>
