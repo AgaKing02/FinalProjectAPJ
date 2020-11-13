@@ -18,7 +18,7 @@ public class EventStudentRepositoryImpl implements EventStudentRepository {
 
     @Override
     public void add(EventStudent entity) {
-        System.out.println("Add");
+
     }
 
     @Override
